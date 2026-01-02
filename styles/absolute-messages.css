@@ -1,0 +1,46 @@
+.absolute-messages{
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 210px;
+  padding: 8px 18px;
+  border-radius: 30px;
+  background-color: rgb(33, 35, 40);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.35);
+  cursor: pointer;
+}
+.absolute-messages svg{
+  margin-top: 5px;
+}
+.absolute-messages img{
+  height: 27px;
+  width: 27px;
+  border-radius: 15px;
+  object-fit: cover;
+}
+.absolute-messages-part1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.absolute-messages-part2{
+  position: relative;
+  margin-top: 5px;
+}
+.absolute-messages-part2 div{
+  position: absolute;
+  top: 0;
+}
+.absolute-messages-part2-div1{
+  left: -20px;
+}
+.absolute-messages-part2-div2{
+  left: -40px;
+}
+.absolute-messages:hover{
+  background-color: rgb(44, 46, 51);
+}

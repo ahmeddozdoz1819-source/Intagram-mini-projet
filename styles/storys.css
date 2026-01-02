@@ -1,0 +1,35 @@
+.story-img img{
+  height: 80px;
+  width: 80px;
+  object-fit: cover;
+  border-radius: 45px;
+  margin-bottom: 3px;
+}
+.storys-section{
+  display: flex;
+  justify-content: center;
+}
+.story-div{
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 80px;
+  border-radius: 45px;
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.story-icon{
+  height: 84px;
+  width: 84px;
+  object-fit: cover;
+  border-radius: 45px;
+  margin-bottom: 5px;
+}
+.story-img{
+  position: absolute;
+  bottom: 3px;
+}

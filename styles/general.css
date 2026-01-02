@@ -1,0 +1,21 @@
+body{
+  font-family: Roboto, Arial;
+  color: white;
+  background-color: rgb(12, 16, 20);
+  min-width: 830px;
+}
+main{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 30px;
+}
+@media(max-width: 1175px){
+  main{
+    flex-direction: column;
+  }
+  .follow-div{
+    opacity: 0;
+    height: 0px;
+  }
+}
