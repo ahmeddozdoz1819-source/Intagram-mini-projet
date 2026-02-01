@@ -22,6 +22,8 @@ main{
 }
 body .logo img{
   display: none;
+  width: 0px;
 }
+
 
 
