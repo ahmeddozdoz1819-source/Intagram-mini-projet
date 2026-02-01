@@ -20,7 +20,8 @@ main{
   }
 
 }
-.logo img{
+body .logo img{
   display: none;
 }
+
 
