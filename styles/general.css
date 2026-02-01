@@ -18,4 +18,8 @@ main{
     opacity: 0;
     height: 0px;
   }
+
+}
+.logo{
+  display: none;
 }
